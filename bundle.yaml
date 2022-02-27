@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "1"
+version: "3"
 id: "asantra1-cloudbees-ci-ops-controller"
 description: "CloudBees CI configuration bundle for the asantra1-cloudbees-ci ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/asantra1-cloudbees-ci/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
